@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes">
+  <test thread-count="5" name="ClassParallel" parallel="classes">
+    <classes>
+      <class name="testNgPack.Class4"/>
+      <class name="testNgPack.Class1"/>
+      <class name="testNgPack.Class2"/>
+      <class name="testNgPack.Class3"/>
+      <class name="testNgPack.TestActiTime1"/>
+    </classes>
+  </test> <!-- ClassParallel -->
+</suite> <!-- Suite -->
